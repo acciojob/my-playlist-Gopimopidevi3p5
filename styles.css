@@ -1,29 +1,32 @@
-/*  your css code here. If applicable */
 body{
-	background-color:rgb(204,204,204);
+	background-color: rgb(204,204,204);
+}
+
+h1,h2{
 	text-align:center;
 }
+
+ul{
+	padding:10px;
+}
+
 li{
 	list-style-type:none;
 }
+
 a{
-	text-decoration:none;
+	text-decoration-line:none;
 }
+
 .div01{
-	background-color:rgb(255,255,255);
-	border:2px solid black;
-	border-radius:10px;
-	text-align:start;
-}
-.player_two{
-	background-color:rgb(255,255,255);
+	background-color: rgb(255,255,255);
 	padding:10px;
 	border-radius:10px;
-	border:2px solid black;
 }
-h5{
-	text-align:start;
-}
-.audio{
-	width:100%;
+
+.player_one,
+.player_two{
+	background-color: rgb(255,255,255);
+	padding:10px;
+	border-radius:10px;
 }
